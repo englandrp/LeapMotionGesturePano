@@ -8,6 +8,7 @@ Testing the Leap Motion API with a simple HTML5 app: a scrolling panorama. Swipe
 You'll need:
 
 1) A Leap Motion device
+
 2) leap.js from http://js.leapmotion.com/ or https://github.com/leapmotion/leapjs
 
 License for code: MIT
