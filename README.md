@@ -15,6 +15,6 @@ License for code: MIT
 
 http://richardengland.co.uk/license/mit-license.html
 
-This make use of reveal.js by @hakimel
+This makes use of the excellent reveal.js by @hakimel
 
 Panoramic images are copyright Jonathan Wilkinson 2013
