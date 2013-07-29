@@ -60,13 +60,13 @@ Leap.loop(controllerOptions, function(frame) {
       handString += "Sphere radius: " + hand.sphereRadius.toFixed(1) + " mm<br />";
 
       //tweaky tweaky tweaky...
-      console.log(hand.palmVelocity[1]);
+      //console.log(hand.palmVelocity[1]);
 
       if(Math.abs(hand.direction[1]) < 0.3) handClose = true;
       if(Math.abs(hand.palmVelocity[0]) > 0 && handClose) Salts.swipeHorizontal(hand.palmVelocity[0]/15);
-      if(Math.abs(hand.palmVelocity[0]) > 1500 && handClose) Salts.largeSwipeHorizontal(hand.palmVelocity[0]/500);
-     // if(hand.palmVelocity[1] > 1250 && handClose) Salts.pano2();
-     // if(hand.palmVelocity[1] < -1250 && handClose) Salts.pano1();
+      if(Math.abs(hand.palmVelocity[0]) > 1200 && handClose) Salts.largeSwipeHorizontal(hand.palmVelocity[0]/500);
+      if(hand.palmVelocity[1] > 1500 && handClose) Salts.pano2();
+      if(hand.palmVelocity[1] < -1500 && handClose) Salts.pano1();
 
 	//Salts.setMousePos(-hand.palmNormal[0], -hand.palmNormal[1], hand.palmNormal[2]);
 
