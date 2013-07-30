@@ -11,6 +11,8 @@ You'll need:
 
 2) leap.js from http://js.leapmotion.com/ or https://github.com/leapmotion/leapjs
 
+More info: http://reflexarc.co.uk/#/5/1
+
 License for code: MIT
 
 http://richardengland.co.uk/license/mit-license.html
